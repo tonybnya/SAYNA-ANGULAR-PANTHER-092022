@@ -7,6 +7,11 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ScrollbarComponent } from './components/scrollbar/scrollbar.component';
 import { CartComponent } from './components/cart/cart.component';
 import { ProductsComponent } from './components/products/products.component';
+import { HomeComponent } from './components/home/home.component';
+import { WakandaComponent } from './components/wakanda/wakanda.component';
+import { EnigmeComponent } from './components/enigme/enigme.component';
+import { EshopComponent } from './components/eshop/eshop.component';
+import { MonCompteComponent } from './components/mon-compte/mon-compte.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +20,12 @@ import { ProductsComponent } from './components/products/products.component';
     FooterComponent,
     ScrollbarComponent,
     CartComponent,
-    ProductsComponent
+    ProductsComponent,
+    HomeComponent,
+    WakandaComponent,
+    EnigmeComponent,
+    EshopComponent,
+    MonCompteComponent
   ],
   imports: [
     BrowserModule
