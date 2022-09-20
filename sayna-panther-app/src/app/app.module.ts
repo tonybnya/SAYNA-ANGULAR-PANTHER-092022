@@ -14,6 +14,9 @@ import { WakandaComponent } from './components/wakanda/wakanda.component';
 import { EnigmeComponent } from './components/enigme/enigme.component';
 import { EshopComponent } from './components/eshop/eshop.component';
 import { MonCompteComponent } from './components/mon-compte/mon-compte.component';
+import { HeroHomeComponent } from './components/hero-home/hero-home.component';
+import { HeroWakandaComponent } from './components/hero-wakanda/hero-wakanda.component';
+import { HeroEnigmeComponent } from './components/hero-enigme/hero-enigme.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { MonCompteComponent } from './components/mon-compte/mon-compte.component
     WakandaComponent,
     EnigmeComponent,
     EshopComponent,
-    MonCompteComponent
+    MonCompteComponent,
+    HeroHomeComponent,
+    HeroWakandaComponent,
+    HeroEnigmeComponent
   ],
   imports: [
     BrowserModule,
