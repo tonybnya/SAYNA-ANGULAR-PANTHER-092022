@@ -17,6 +17,9 @@ import { MonCompteComponent } from './components/mon-compte/mon-compte.component
 import { HeroHomeComponent } from './components/hero-home/hero-home.component';
 import { HeroWakandaComponent } from './components/hero-wakanda/hero-wakanda.component';
 import { HeroEnigmeComponent } from './components/hero-enigme/hero-enigme.component';
+import { MainHomeComponent } from './components/main-home/main-home.component';
+import { MainWakandaComponent } from './components/main-wakanda/main-wakanda.component';
+import { MainEnigmeComponent } from './components/main-enigme/main-enigme.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import { HeroEnigmeComponent } from './components/hero-enigme/hero-enigme.compon
     MonCompteComponent,
     HeroHomeComponent,
     HeroWakandaComponent,
-    HeroEnigmeComponent
+    HeroEnigmeComponent,
+    MainHomeComponent,
+    MainWakandaComponent,
+    MainEnigmeComponent
   ],
   imports: [
     BrowserModule,
