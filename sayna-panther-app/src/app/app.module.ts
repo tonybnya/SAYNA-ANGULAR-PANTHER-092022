@@ -21,6 +21,8 @@ import { MainHomeComponent } from './components/main-home/main-home.component';
 import { MainWakandaComponent } from './components/main-wakanda/main-wakanda.component';
 import { MainEnigmeComponent } from './components/main-enigme/main-enigme.component';
 import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
+import { HeroEshopComponent } from './components/hero-eshop/hero-eshop.component';
+import { MainEshopComponent } from './components/main-eshop/main-eshop.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { NotFoundPageComponent } from './components/not-found-page/not-found-pag
     MainHomeComponent,
     MainWakandaComponent,
     MainEnigmeComponent,
-    NotFoundPageComponent
+    NotFoundPageComponent,
+    HeroEshopComponent,
+    MainEshopComponent
   ],
   imports: [
     BrowserModule,

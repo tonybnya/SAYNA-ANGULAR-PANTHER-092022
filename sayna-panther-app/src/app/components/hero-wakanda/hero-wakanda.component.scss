@@ -3,14 +3,14 @@
 
 #hero-wakanda {
   background-image: url(https://i.postimg.cc/fy435PSK/Pantherwakanda1.png);
-  background-position: center center;
-  background-size: auto;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
   .content {
     position: absolute;
     top: 40%;
-    padding-left: 70px;
+    padding-left: 115px;
     display: flex;
     flex-direction: column;
     width: 40%;

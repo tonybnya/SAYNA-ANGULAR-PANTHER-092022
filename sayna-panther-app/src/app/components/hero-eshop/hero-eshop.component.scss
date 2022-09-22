@@ -1,0 +1,21 @@
+@import '../../../assets/styles/base/colors';
+@import '../../../assets/styles/base/typo';
+
+#hero-eshop {
+  background-image: url(https://i.postimg.cc/Qxyn1mgk/15879.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  .hero-title {
+    color: $color-snuff;
+    font-family: 'beyno';
+    font-weight: bolder;
+    position: absolute;
+    top: 40%;
+    padding-left: 115px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+}
