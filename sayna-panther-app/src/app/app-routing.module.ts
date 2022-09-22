@@ -8,7 +8,8 @@ import { MonCompteComponent } from './components/mon-compte/mon-compte.component
 import { WakandaComponent } from './components/wakanda/wakanda.component';
 
 const routes: Routes = [
-  { path:'', component:HomeComponent },
+  // { path:'', component:HomeComponent },
+  { path:'', redirectTo: '/home', pathMatch: 'full' },
   { path:'home', component:HomeComponent },
   { path:'enigme', component:EnigmeComponent },
   { path:'wakanda', component:WakandaComponent },

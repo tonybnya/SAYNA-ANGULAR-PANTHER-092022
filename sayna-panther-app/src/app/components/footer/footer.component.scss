@@ -23,6 +23,9 @@ footer {
         display: flex;
         justify-content: space-between;
         margin-bottom: 50px;
+        h3 {
+          color: $color-white;
+        }
         .sitemap {
           ul {
             list-style: none;
