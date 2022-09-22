@@ -6,6 +6,7 @@ import { EshopComponent } from './components/eshop/eshop.component';
 import { HomeComponent } from './components/home/home.component';
 import { MonCompteComponent } from './components/mon-compte/mon-compte.component';
 import { WakandaComponent } from './components/wakanda/wakanda.component';
+import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 
 const routes: Routes = [
   // { path:'', component:HomeComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path:'wakanda', component:WakandaComponent },
   { path:'eshop', component:EshopComponent },
   { path:'moncompte', component:MonCompteComponent },
+  { path:'**', component:NotFoundPageComponent },
 ];
 
 @NgModule({
