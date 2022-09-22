@@ -1,0 +1,13 @@
+@import '../../../assets/styles/base/colors';
+@import '../../../assets/styles/base/typo';
+
+.container {
+  h1, .card-body {
+    font-family: 'cantarell';
+    color: $color-white;
+  }
+  button {
+    text-transform: uppercase;
+    font-family: 'beyno';
+  }
+}
