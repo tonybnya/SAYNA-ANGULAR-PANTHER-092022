@@ -20,6 +20,7 @@ import { HeroEnigmeComponent } from './components/hero-enigme/hero-enigme.compon
 import { MainHomeComponent } from './components/main-home/main-home.component';
 import { MainWakandaComponent } from './components/main-wakanda/main-wakanda.component';
 import { MainEnigmeComponent } from './components/main-enigme/main-enigme.component';
+import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { MainEnigmeComponent } from './components/main-enigme/main-enigme.compon
     HeroEnigmeComponent,
     MainHomeComponent,
     MainWakandaComponent,
-    MainEnigmeComponent
+    MainEnigmeComponent,
+    NotFoundPageComponent
   ],
   imports: [
     BrowserModule,
