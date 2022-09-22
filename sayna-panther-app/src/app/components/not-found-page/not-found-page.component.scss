@@ -1,0 +1,30 @@
+@import '../../../assets/styles/base/colors';
+@import '../../../assets/styles/base/typo';
+
+@mixin btn() {
+  font-family: 'beyno';
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0;
+  background: $color-plum;
+  color: $color-black;
+  &:hover {
+    background: $color-white;
+  }
+}
+
+.container {
+  width: 80%;
+  color: $color-white;
+  font-family: 'beyno';
+  .row {
+    display: flex;
+    align-items: center;
+    .col-md-6 {
+      button {
+        @include btn;
+      }
+    }
+  }
+}

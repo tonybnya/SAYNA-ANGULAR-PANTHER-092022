@@ -7,7 +7,14 @@
   /></a>
   <i class="fas fa-regular fa-2x fa-bars hamburger"></i>
   <ul class="menu">
-    <li><a routerLink="" routerLinkActive="active">accueil</a></li>
+    <li>
+      <a
+        routerLink=""
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >accueil</a
+      >
+    </li>
     <li><a routerLink="wakanda" routerLinkActive="active">wakanda</a></li>
     <li><a routerLink="enigme" routerLinkActive="active">enigme</a></li>
     <li><a routerLink="eshop" routerLinkActive="active">eshop</a></li>
