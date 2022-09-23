@@ -1,0 +1,65 @@
+@import '../../../assets/styles/base/colors';
+@import '../../../assets/styles/base/typo';
+
+.container {
+  width: 80%;
+  margin: 300px auto;
+  .quizz-content {
+    display: flex;
+    justify-content: space-between;
+    .quizz,
+    .trick {
+      padding: 50px;
+    }
+    .quizz {
+      h1 {
+        font-family: 'beyno';
+        text-decoration: underline;
+        color: $color-plum;
+        span {
+          font-family: 'cantarell';
+        }
+      }
+      .q1 {
+        font-size: 12px;
+      }
+      .q2 {
+        font-family: 'wakanda forever';
+        color: $color-plum;
+      }
+      label {
+        color: $color-white;
+        font-family: 'cantarell';
+        padding-bottom: 10px;
+      }
+      input {
+        background-color: transparent;
+        border: 2px solid $color-plum;
+        width: 100%;
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 10px;
+        &::placeholder {
+          color: $color-plum;
+          font-weight: 300;
+          font-family: 'cantarell';
+          font-size: 12px;
+        }
+      }
+      .btn {
+        background: $color-plum;
+      }
+    }
+    .trick {
+      color: $color-white;
+      h3 {
+        font-family: 'cantarell';
+      }
+      .content {
+        span {
+          font-family: 'wakanda forever';
+        }
+      }
+    }
+  }
+}

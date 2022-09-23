@@ -1,13 +1,31 @@
 <!-- Quizz Section -->
 <section id="quizz">
-  <div class="quizz-content">
-    <div class="statement">
-      <h1>enigme numero 1</h1>
-      <p>
-        Prouve ton talent d’espion et déchiffre cette réplique d’Okoyé écrite en
-        Wakandais, et apprend par la même occasion la première valeur d’une Dora
-        Milaje !
-      </p>
+  <div class="container">
+    <div class="quizz-content">
+      <div class="quizz">
+        <h1>{{ data[0].quizz.title }} <span>1</span></h1>
+        <p class="q1">{{ data[0].quizz.q1 }}</p>
+        <p class="q2">{{ data[0].quizz.q2 }}</p>
+        <form action="/action_page.php">
+          <label>Alors, as-tu la réponse ?</label><br />
+          <input id="answer" name="answer" placeholder="Réponse" /><br />
+          <a class="btn" href="">Envoyer</a>
+        </form>
+      </div>
+      <div class="trick">
+        <img src="ihttps://i.postimg.cc/5y3xvKBj/Pantherenigme2.png" alt="" />
+        <h3 class="title">{{ data[0].trick.title }}</h3>
+        <p class="content">
+          A=<span>A</span>A; B=<span>B</span>; C=<span>C</span>;
+          D=<span>D</span>; E=<span>E</span>;<br />F=<span>F</span>;
+          G=<span>G</span>; H=<span>H</span>; I=<span>I</span>;
+          J=<span>J</span>; <br />K=<span>K</span>; L=<span>L</span>;
+          M=<span>M</span>; N=<span>N</span>; O=<span>O</span>;
+          P=<span>P</span>; <br />Q=<span>Q</span>; R=<span>R</span>;
+          S=<span>S</span>; T=<span>T</span>; U=<span>U</span>;
+          V=<span>V</span>;<br />W=<span>W</span>;X=<span>X</span>;Y=<span>Y</span>;Z=<span>Z</span>;
+        </p>
+      </div>
     </div>
   </div>
 </section>

@@ -13,6 +13,9 @@ section {
   .results {
     display: flex;
     justify-content: space-between;
+    .arrow {
+      color: $color-plum;
+    }
   }
   button {
     text-transform: uppercase;

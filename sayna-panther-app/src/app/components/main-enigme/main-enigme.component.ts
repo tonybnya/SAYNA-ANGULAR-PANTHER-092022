@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiQuizzesService } from 'src/app/services/api-quizzes.service';
 
 @Component({
   selector: 'app-main-enigme',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-enigme.component.scss']
 })
 export class MainEnigmeComponent implements OnInit {
+  public data: any
 
-  constructor() { }
+  constructor(private api: ApiQuizzesService) { }
 
   ngOnInit(): void {
+    this.api.getQuizzes().subscribe((res: any) => { 
+      this.data = res;
+    });
   }
-
 }

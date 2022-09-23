@@ -10,6 +10,17 @@
     {"id":"8","title":"COSTUME","url":"https://i.postimg.cc/Bby24qPk/article-8.jpg","category":"suit","universe":"Black Panther","price":"25","quantity":"3","description":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."},
     {"id":"9","title":"SAC A DOS","url":"https://i.postimg.cc/t4FFGGqv/article-12.jpg","category":"bag","universe":"Black Panther","price":"25","quantity":"3","description":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."}
   ],
+  "quizzes": [
+    {
+      "id": "1","trick": {"title":"Voici la transcription de l’alphabet","content":"A=A;B=b;c=c;d=d;e=e;f=f;g=g;h=h;i=i;j=j; k=k;l=l;m=m;n=n;o=o;p=p;q=q;r=r;s=s;t=t;u=u;w=w;x=x;y=y;z=z"},"quizz": {"title":"ENIGME NUMERO","q1":"Prouve ton talent d’espion et déchiffre cette réplique d’Okoyé écrite en Wakandais, et apprend par la même occasion la première valeur d’une Dora Milaje !","q2":"“ SI JE SUIS FIDELE C’EST A CE TRONE PEU IMPORTE QUI MONTE DESSUS ”"}
+    },
+    {
+      "id": "2","trick": {"title":"Le savais tu ?","content":"Plusieurs sources s’entendent pour dire que la lettre la plus utilisée en français est la lettre E. En pourcentage de fréquence, la lettre est utilisée à 14% dans une phrase. Et si tu regardais quel symbole revient le plus souvent pour en déduire son décalage dans l’alphabet ?"},"quizz": {"title":"ENIGME NUMERO","q1":"Une anecdote intéressante est écrite juste en dessous mais elle est codée par un code césar également appelé code de “chiffrement par décalage”. L’alphabet a été décalé, trouve la clé de chiffrement qui te permettrait de retrouver les lettres et retranscris la phrase :","q2":"Tm nqtu lmjcbm i Wikstivl mv Kitqnwzvqm. Qt a'ioqb lm ti dqttm lwvb mab wzqoqviqzm Zgiv Kwwotmz mb moitmumvb ti dqttm ycq i dc viqbzm tm uwcdmumvb xwtqbqycm lma jtiks xivbpmza"}
+    },
+    {
+      "id": "3","trick": {"title":"Le savais tu ?","content":"Le philosophe Francis Bacon inventa en 1605 un alphabet bilitère, uniquement composé des deux lettres A et B. C'est en quelque sorte l'ancêtre du système binaire des ordinateurs actuels car toute lettre pouvait être construite avec un enchainement précis de ces deux lettres, tandis que le système binaire informatique utilise 0 et 1."},"quizz": {"title":"ENIGME NUMERO","q1":"Lorsque T’Challa mange l’herbe en forme de coeur pour recevoir les pouvoirs du Black Panther, il voit son père afin de lui demander conseil afin de devenir un bon roi. Cette scène rappelle la même scène d’un certain film où un père dit à son fils de ne pas oublier qui il est et d’où il vient. Quel est ce film ?","q2":"01001100 01000101 00100000 01010010 01001111 01001001 00100000 01001100 01001001 01001111 01001110 00001101 00001010"}
+    }
+  ],
   "comments": [
     {
       "id": 1,
