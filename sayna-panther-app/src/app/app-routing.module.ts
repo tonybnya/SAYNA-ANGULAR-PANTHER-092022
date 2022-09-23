@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { MonCompteComponent } from './components/mon-compte/mon-compte.component';
 import { WakandaComponent } from './components/wakanda/wakanda.component';
 import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
+import { CartComponent } from './components/cart/cart.component';
 
 const routes: Routes = [
   // { path:'', redirectTo: '/home', pathMatch: 'full' },
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path:'wakanda', component:WakandaComponent },
   { path:'eshop', component:EshopComponent },
   { path:'moncompte', component:MonCompteComponent },
-  { path:'**', component:NotFoundPageComponent },
+  {path:'cart', component:CartComponent},
+  { path:'**', component:NotFoundPageComponent }
 ];
 
 @NgModule({

@@ -5,24 +5,30 @@
       <div class="col-md-9">
         <h1>Les Différents Produits</h1>
         <div class="results pt-3">
-          <p>Résultats :<span class="mx-2"> 20</span></p>
+          <p>
+            Résultats : <span class="mx-2">{{ articles.length }}</span>
+          </p>
           <div class="sort">
             <p>Trier par <i class="fa-solid fa-chevron-down"></i></p>
           </div>
         </div>
-        <div class="products">
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://i.postimg.cc/4ynpDKyp/article-1.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body bg-dark text-center">
-              <div class="title">T-SHIRT</div>
-              <div class="price">39€ 25€</div>
+        <div class="row">
+          <ng-container *ngFor="let article of articles">
+            <div class="col-md-4">
+              <div class="products">
+                <div class="card my-3" style="width: 18rem">
+                  <img [src]="article.url" class="card-img-top" alt="..." />
+                  <div class="card-body bg-dark text-center">
+                    <div class="title">{{ article.title }}</div>
+                    <div class="price">
+                      {{ article.price | currency: "USD" }}
+                    </div>
+                  </div>
+                  <button>Ajouter au panier</button>
+                </div>
+              </div>
             </div>
-            <button>Ajouter au panier</button>
-          </div>
+          </ng-container>
         </div>
       </div>
     </div>

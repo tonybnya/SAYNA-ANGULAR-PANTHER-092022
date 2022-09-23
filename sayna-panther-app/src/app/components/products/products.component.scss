@@ -1,6 +1,10 @@
 @import '../../../assets/styles/base/colors';
 @import '../../../assets/styles/base/typo';
 
+section {
+  margin-bottom: 100px;
+}
+
 .container {
   h1, .card-body {
     font-family: 'cantarell';
@@ -13,5 +17,10 @@
   button {
     text-transform: uppercase;
     font-family: 'beyno';
+  }
+  .card {
+    &:hover {
+      scale: 1.1;
+    }
   }
 }
