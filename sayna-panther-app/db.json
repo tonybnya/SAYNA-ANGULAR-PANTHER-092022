@@ -50,6 +50,27 @@
       "author": "REBECCA ENONCHONG",
       "date": "11.10.21",
       "postId": "4"
+    },
+    {
+      "id": "5",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim elit id turpis scelerisque mollis. Nulla vehicula velit augue, ut maximus est porttitor quis. Morbi finibus, nulla non consectetur convallis, eros mi sollicitudin metus, id sollicitudin nunc ligula eu dui.",
+      "author": "STEVE JOBS",
+      "date": "11.09.01",
+      "postId": "5"
+    },
+    {
+      "id": "6",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim elit id turpis scelerisque mollis. Nulla vehicula velit augue, ut maximus est porttitor quis. Morbi finibus, nulla non consectetur convallis, eros mi sollicitudin metus, id sollicitudin nunc ligula eu dui.",
+      "author": "BILL GATES",
+      "date": "29.05.86",
+      "postId": "6"
+    },
+    {
+      "id": "7",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim elit id turpis scelerisque mollis. Nulla vehicula velit augue, ut maximus est porttitor quis. Morbi finibus, nulla non consectetur convallis, eros mi sollicitudin metus, id sollicitudin nunc ligula eu dui.",
+      "author": "PAUL BIYA",
+      "date": "11.05.86",
+      "postId": "7"
     }
   ],
   "profile": {
