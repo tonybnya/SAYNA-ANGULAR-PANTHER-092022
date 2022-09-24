@@ -8,9 +8,9 @@ import { MonCompteComponent } from './components/mon-compte/mon-compte.component
 import { WakandaComponent } from './components/wakanda/wakanda.component';
 import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 import { CartComponent } from './components/cart/cart.component';
+import { SingleProductComponent } from './components/single-product/single-product.component';
 
 const routes: Routes = [
-  // { path:'', redirectTo: '/home', pathMatch: 'full' },
   { path:'', component:HomeComponent },
   { path:'home', component:HomeComponent },
   { path:'enigme', component:EnigmeComponent },
@@ -18,6 +18,7 @@ const routes: Routes = [
   { path:'eshop', component:EshopComponent },
   { path:'moncompte', component:MonCompteComponent },
   {path:'cart', component:CartComponent},
+  {path:'eshop/product/:id', component:SingleProductComponent},
   { path:'**', component:NotFoundPageComponent }
 ];
 

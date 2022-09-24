@@ -25,6 +25,7 @@ import { NotFoundPageComponent } from './components/not-found-page/not-found-pag
 import { HeroEshopComponent } from './components/hero-eshop/hero-eshop.component';
 import { MainEshopComponent } from './components/main-eshop/main-eshop.component';
 import { ButtonComponent } from './components/button/button.component';
+import { SingleProductComponent } from './components/single-product/single-product.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { ButtonComponent } from './components/button/button.component';
     NotFoundPageComponent,
     HeroEshopComponent,
     MainEshopComponent,
-    ButtonComponent
+    ButtonComponent,
+    SingleProductComponent
   ],
   imports: [
     BrowserModule,

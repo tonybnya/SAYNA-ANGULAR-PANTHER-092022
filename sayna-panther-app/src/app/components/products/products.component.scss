@@ -21,6 +21,9 @@ section {
     &:hover {
       scale: 1.1;
     }
+    .card-img-top {
+      cursor: pointer;
+    }
   }
   .pages {
     color: $color-white;
