@@ -24,9 +24,32 @@
   ],
   "comments": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": "1",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim elit id turpis scelerisque mollis. Nulla vehicula velit augue, ut maximus est porttitor quis. Morbi finibus, nulla non consectetur convallis, eros mi sollicitudin metus, id sollicitudin nunc ligula eu dui.",
+      "author": "ELON MUSK",
+      "date": "31.01.22",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim elit id turpis scelerisque mollis. Nulla vehicula velit augue, ut maximus est porttitor quis. Morbi finibus, nulla non consectetur convallis, eros mi sollicitudin metus, id sollicitudin nunc ligula eu dui.",
+      "author": "MARK ZUKERBERG",
+      "date": "23.09.22",
+      "postId": "2"
+    },
+    {
+      "id": "3",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim elit id turpis scelerisque mollis. Nulla vehicula velit augue, ut maximus est porttitor quis. Morbi finibus, nulla non consectetur convallis, eros mi sollicitudin metus, id sollicitudin nunc ligula eu dui.",
+      "author": "FRED SWANIKER",
+      "date": "07.06.12",
+      "postId": "3"
+    },
+    {
+      "id": "4",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim elit id turpis scelerisque mollis. Nulla vehicula velit augue, ut maximus est porttitor quis. Morbi finibus, nulla non consectetur convallis, eros mi sollicitudin metus, id sollicitudin nunc ligula eu dui.",
+      "author": "REBECCA ENONCHONG",
+      "date": "11.10.21",
+      "postId": "4"
     }
   ],
   "profile": {
