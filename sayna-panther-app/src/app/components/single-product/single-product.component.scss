@@ -1,0 +1,35 @@
+@import '../../../assets/styles/base/colors';
+@import '../../../assets/styles/base/typo';
+
+.conteneur-single {
+  width: 70%;
+  margin: 0 auto;
+  .col-md-6 {
+    color: $color-white;
+    font-family: 'cantarell';
+  }
+}
+.white-color {
+  border-top: 2px solid $color-white;
+}
+.cart {
+  color: $color-white;
+}
+.border {
+  border: 2px solid;
+  border-color: red !important;
+  border-radius: 25px;
+  padding: 5px 40px;
+  color: red;
+}
+
+.description {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.caracteristiques,
+.gray {
+  color: darkgray;
+  font-family: 'cantarell';
+}
