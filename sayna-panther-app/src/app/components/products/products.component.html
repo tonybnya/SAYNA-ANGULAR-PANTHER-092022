@@ -13,7 +13,12 @@
           </div>
         </div>
         <div class="row">
-          <ng-container *ngFor="let article of articles">
+          <ng-container
+            *ngFor="
+              let article of articles
+                | paginate: { itemsPerPage: 9, currentPage: page }
+            "
+          >
             <div class="col-md-4">
               <div class="products">
                 <div class="card my-3" style="width: 18rem">
@@ -29,6 +34,14 @@
               </div>
             </div>
           </ng-container>
+          <div class="pages">
+            <pagination-controls
+              class="text-center"
+              previousLabel="Précédent"
+              nextLabel="Suivant"
+              (pageChange)="page = $event"
+            ></pagination-controls>
+          </div>
         </div>
       </div>
     </div>
