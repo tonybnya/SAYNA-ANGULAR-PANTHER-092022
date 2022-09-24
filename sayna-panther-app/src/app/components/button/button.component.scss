@@ -1,0 +1,16 @@
+@import '../../../assets/styles/base/colors';
+@import '../../../assets/styles/base/typo';
+
+button {
+  width: 18rem;
+  text-transform: uppercase;
+  font-family: 'beyno';
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+  background: $color-plum;
+  color: $color-black;
+  &:hover {
+    background: $color-white;
+  }
+}
