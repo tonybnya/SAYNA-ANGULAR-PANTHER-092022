@@ -24,6 +24,7 @@ import { MainEnigmeComponent } from './components/main-enigme/main-enigme.compon
 import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 import { HeroEshopComponent } from './components/hero-eshop/hero-eshop.component';
 import { MainEshopComponent } from './components/main-eshop/main-eshop.component';
+import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { MainEshopComponent } from './components/main-eshop/main-eshop.component
     MainEnigmeComponent,
     NotFoundPageComponent,
     HeroEshopComponent,
-    MainEshopComponent
+    MainEshopComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
