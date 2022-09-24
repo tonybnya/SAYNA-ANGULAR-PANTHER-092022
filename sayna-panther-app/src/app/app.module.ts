@@ -26,6 +26,7 @@ import { HeroEshopComponent } from './components/hero-eshop/hero-eshop.component
 import { MainEshopComponent } from './components/main-eshop/main-eshop.component';
 import { ButtonComponent } from './components/button/button.component';
 import { SingleProductComponent } from './components/single-product/single-product.component';
+import { FilterComponent } from './components/filter/filter.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { SingleProductComponent } from './components/single-product/single-produ
     HeroEshopComponent,
     MainEshopComponent,
     ButtonComponent,
-    SingleProductComponent
+    SingleProductComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,
