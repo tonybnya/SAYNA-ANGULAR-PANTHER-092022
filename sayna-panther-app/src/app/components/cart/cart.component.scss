@@ -1,6 +1,28 @@
 @import '../../../assets/styles/base/colors';
 @import '../../../assets/styles/base/typo';
 
-.cart {
-  color: $color-white;
+.container {
+  .cart {
+    margin-right: 15px;
+    color: $color-white;
+  }
+}
+.content {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  h1 {
+    color: $color-white;
+    font-family: 'panthera';
+  }
+}
+
+.container-largeur {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.border-product {
+  border: 2px solid $color-white;
+  padding: 20px 40px;
+  margin-bottom: 15px;
 }
