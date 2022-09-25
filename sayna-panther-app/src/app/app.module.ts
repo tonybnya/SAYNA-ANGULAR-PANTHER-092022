@@ -27,6 +27,7 @@ import { MainEshopComponent } from './components/main-eshop/main-eshop.component
 import { ButtonComponent } from './components/button/button.component';
 import { SingleProductComponent } from './components/single-product/single-product.component';
 import { FilterComponent } from './components/filter/filter.component';
+import { CommandComponent } from './components/command/command.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { FilterComponent } from './components/filter/filter.component';
     MainEshopComponent,
     ButtonComponent,
     SingleProductComponent,
-    FilterComponent
+    FilterComponent,
+    CommandComponent
   ],
   imports: [
     BrowserModule,
