@@ -1,0 +1,47 @@
+@import '../../../assets/styles/base/colors';
+@import '../../../assets/styles/base/typo';
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero-image {
+  background-image: url(https://i.postimg.cc/hP1tGJ9B/54044.jpg);
+  height: 800px;
+  background-position: center;
+  background-color: $color-black;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-title {
+  padding-top: 4em;
+  font-size: 3em;
+  font-weight: bolder;
+  text-shadow: $color-white 0px 10px 30px;
+  font-family: 'beyno';
+  color: $color-smalt;
+}
+
+a {
+  padding-top: 15px;
+  color: $color-white;
+  text-decoration: none;
+}
+
+h1 {
+  color: $color-white;
+  font-family: 'cantarell';
+}
+
+a:active,
+a:hover {
+  text-decoration: underline;
+}
+
+.info-perso,
+.info-newsletter {
+  padding-left: 30px;
+  border-left: 3px $color-white solid;
+}

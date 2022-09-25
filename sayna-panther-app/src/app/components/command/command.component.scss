@@ -1,0 +1,23 @@
+@import '../../../assets/styles/base/colors';
+@import '../../../assets/styles/base/typo';
+
+.wrapper {
+  color: $color-white;
+  font-family: 'Rajdhani';
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  background: #3D2DA6;
+  background: linear-gradient(
+    180deg,
+    #3D2DA6 12%,
+    rgb(0, 0, 0) 95%
+  );
+  .image {
+    outline: 2px darkgray solid;
+  }
+}
+
+.btns {
+  margin: 0 auto;
+}

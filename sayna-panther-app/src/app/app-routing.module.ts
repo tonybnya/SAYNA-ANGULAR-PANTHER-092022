@@ -9,6 +9,7 @@ import { WakandaComponent } from './components/wakanda/wakanda.component';
 import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 import { CartComponent } from './components/cart/cart.component';
 import { SingleProductComponent } from './components/single-product/single-product.component';
+import { CommandComponent } from './components/command/command.component';
 
 const routes: Routes = [
   { path:'', component:HomeComponent },
@@ -17,8 +18,9 @@ const routes: Routes = [
   { path:'wakanda', component:WakandaComponent },
   { path:'eshop', component:EshopComponent },
   { path:'moncompte', component:MonCompteComponent },
-  {path:'cart', component:CartComponent},
-  {path:'eshop/product/:id', component:SingleProductComponent},
+  { path:'cart', component:CartComponent },
+  { path:'eshop/product/:id', component:SingleProductComponent },
+  { path:'cart/command', component:CommandComponent },
   { path:'**', component:NotFoundPageComponent }
 ];
 
