@@ -23,9 +23,9 @@ section {
     }
   }
   .card {
-    &:hover {
-      scale: 1.1;
-    }
+    // &:hover {
+    //   scale: 1.1;
+    // }
     .card-img-top {
       cursor: pointer;
     }

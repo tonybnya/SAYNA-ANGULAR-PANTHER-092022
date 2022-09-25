@@ -27,14 +27,14 @@
         class="d-flex justify-content-between align-items-center border-product"
       >
         <div class="product d-flex align-items-center">
-          <img width="30%" [src]="product.imgURL" alt="" />
+          <img width="25%" [src]="product.url" alt="" />
           <div class="mx-4">
-            <h5>{{ product.nom }}</h5>
+            <h5>{{ product.title }}</h5>
             <span>Numéro de produit X000 {{ product.id }}</span>
           </div>
         </div>
         <div class="price">
-          <p>{{ product.prix | currency: "EUR" }}</p>
+          <p>{{ product.price | currency: "EUR" }}</p>
         </div>
         <div class="qte bg-secondary">
           <i class="fa-solid fa-minus mx-4"></i><span class="fs-4">1</span>

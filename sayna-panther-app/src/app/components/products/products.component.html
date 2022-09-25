@@ -36,7 +36,10 @@
                       {{ article.price | currency: "USD" }}
                     </div>
                   </div>
-                  <app-button text="ajouter au panier"></app-button>
+                  <app-button
+                    (click)="addToCart(article)"
+                    text="ajouter au panier"
+                  ></app-button>
                 </div>
               </div>
             </div>

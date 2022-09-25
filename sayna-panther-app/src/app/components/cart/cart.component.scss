@@ -16,8 +16,17 @@
   }
 }
 
+.delete {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
 .container-largeur {
   width: 70%;
+  margin: 80px auto;
+  color: $color-white;
+  font-family: 'cantarell';
   margin: 0 auto;
 }
 

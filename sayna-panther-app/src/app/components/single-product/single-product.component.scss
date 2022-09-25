@@ -14,6 +14,9 @@
 }
 .cart {
   color: $color-white;
+  &:hover {
+    cursor: pointer;
+  }
 }
 .border {
   border: 2px solid;
